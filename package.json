@@ -1,26 +1,19 @@
 {
-  "name": "webapi-i-challenge",
+  "name": "routing",
   "version": "1.0.0",
-  "description": "WEB API I Challenge",
+  "description": "",
   "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "server": "nodemon index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/LambdaSchool/webapi-i-challenge.git"
-  },
   "keywords": [],
-  "author": "Lambda School",
-  "bugs": {
-    "url": "https://github.com/LambdaSchool/webapi-i-challenge/issues"
-  },
-  "homepage": "https://github.com/LambdaSchool/webapi-i-challenge#readme",
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
-    "nodemon": "^1.19.1"
+    "nodemon": "^1.19.2"
   },
   "dependencies": {
-    "knex": "^0.19.3",
-    "sqlite3": "^4.1.0"
+    "express": "^4.17.1"
   }
 }
